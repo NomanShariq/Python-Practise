@@ -22,13 +22,13 @@ print("Player choice is " + str(RPS(computer)).replace("RPS.","") + ".")
 print("")
 
 if player == 1 and computer == 3:
-    print("Player Wins!!")
+    print(" 🎉 Player Wins!!")
 elif player == 2 and computer == 1:
-    print("Player Wins!!")
+    print(" 🎉 Player Wins!!")
 elif player == 3 and computer == 2:
-    print("Player Wins!!")
+    print(" 🎉 Player Wins!!")
 elif player ==  computer:
-    print(" Tie!! ")
+    print(" 😲 Tie!! ")
 else :
-    print("Python Wins !!")
+    print(" 🐍 Python Wins !!")
     

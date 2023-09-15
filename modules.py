@@ -3,6 +3,8 @@ import karachi
 # from karachi import randomFunFacts
 from rps_game import rock_paper_scissors
 
+from hello_person import hello
+
 print(karachi.flower)
 
 karachi.randomFunFacts()
@@ -15,3 +17,5 @@ print(karachi.__name__)
 
 
 rock_paper_scissors()
+
+# hello(name="",lang="")

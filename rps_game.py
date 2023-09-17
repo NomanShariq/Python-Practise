@@ -75,7 +75,10 @@ def rps(name=""):
         else : 
             print("\n🎉🎉🎉🎉")
             print('Thank you playing\n')
-            sys.exit(f"👋🏻 Bye {name}!")        
+            if __name__ == "__main__":
+                sys.exit(f"👋🏻 Bye {name}!")
+            else:
+                return       
     
     return play_rps
     

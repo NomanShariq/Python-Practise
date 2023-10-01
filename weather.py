@@ -19,7 +19,7 @@ def get_current_weather():
     
     # print(weather_data)
     
-    # pprint(weather_data)
+    pprint(weather_data)
     
     print(f'\nThe Weather city name: {weather_data["name"]}')
     print(f'\nThe temp of city: {weather_data["main"]["temp"]}')
